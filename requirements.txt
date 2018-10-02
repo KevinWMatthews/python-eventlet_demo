@@ -1,0 +1,5 @@
+dnspython==1.15.0
+eventlet==0.24.1
+greenlet==0.4.15
+monotonic==1.5
+six==1.11.0
