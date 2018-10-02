@@ -1,4 +1,7 @@
+# http://eventlet.net/doc/examples.html#websocket-server-example
 import eventlet
+from eventlet import wsgi
+from eventlet import websocket
 
 SERVER_ADDRESS = 'localhost'
 SERVER_PORT = 6000
