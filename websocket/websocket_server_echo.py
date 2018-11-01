@@ -1,3 +1,10 @@
+'''
+Taken from the documentation:
+http://eventlet.net/doc/modules/websocket.html
+And from this example:
+http://eventlet.net/doc/examples.html#websocket-server-example
+'''
+
 import eventlet
 from eventlet import wsgi
 from eventlet import websocket
