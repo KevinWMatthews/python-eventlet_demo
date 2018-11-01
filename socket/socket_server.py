@@ -7,7 +7,7 @@ A modification of: http://eventlet.net/doc/examples.html#socket-connect
 import eventlet
 
 LISTEN_ADDRESS = '0.0.0.0'
-LISTEN_PORT = 6000
+LISTEN_PORT = 8090
 MAX_THREADS = 10000
 BUFFER_SIZE = 1024
 

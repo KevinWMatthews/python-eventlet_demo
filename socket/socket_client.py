@@ -6,13 +6,13 @@ import eventlet
 from eventlet.green import socket
 
 SERVER_ADDRESS = 'localhost'
-SERVER_PORT = 6000
+SERVER_PORT = 8090
 BUFFER_SIZE = 1024
 
 messages = [
     'This client performs basic IO over a socket.',
     'Alternatively, connect from the command line:',
-    '$ telnet localhost 6000',
+    '$ telnet localhost 8090',
 ]
 
 with socket.socket() as sock:

@@ -12,7 +12,7 @@ import eventlet
 from eventlet import wsgi
 
 SERVER_HOSTNAME = ''
-SERVER_PORT = 6000
+SERVER_PORT = 8090
 
 # This is a minimal WSGI application.
 def application(env, start_response):

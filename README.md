@@ -12,7 +12,7 @@ Set up several examples of client/server pairs.
   * wsgi -> eventlet's wsgi server
   * websocket -> eventlet's websocket module
 
-Examples are run on localhost, port 6000.
+Examples are run on localhost, port 8090.
 
 
 ## Setup
