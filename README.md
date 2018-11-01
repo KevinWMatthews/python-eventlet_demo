@@ -34,3 +34,5 @@ $ pip install -r requirements.txt
 
 Implement a [dispatch pattern](http://eventlet.net/doc/design_patterns.html#dispatch-pattern).
 This is a proxy server.
+
+Figure out how to implement a basic WSGI client. Just something so that the user doesn't need to type.
