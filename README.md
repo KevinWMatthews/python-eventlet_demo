@@ -8,7 +8,7 @@ Uses green threads. Isn't this an M:N threading model?
 
 Set up several examples of client/server pairs.
 
-  * simple -> bare-bones socket connections
+  * eventlet -> eventlet's server with a thread pool
   * wsgi -> eventlet's built-in wsgi server
   * websocket -> eventlet's websocket module
 
