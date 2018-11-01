@@ -9,11 +9,12 @@ import eventlet
 LISTEN_ADDRESS = '0.0.0.0'
 LISTEN_PORT = 6000
 MAX_THREADS = 10000
+BUFFER_SIZE = 1024
 
 def echo(client):
     print('Connected to client at: {}', client.getpeername())
     while True:
-        c = client.recv(1)
+        c = client.recv(BUFFER_SIZE)
         if not c:
             break
         client.sendall(c)
